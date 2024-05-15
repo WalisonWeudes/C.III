@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int** alocaMatriz(int *m, int *n) {
-    int** matriz;
+    int** matriz; 
     matriz = (int**)malloc(*m * sizeof(int*));
 
     if (matriz == NULL) {
